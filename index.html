@@ -63,8 +63,23 @@
     display: block;
   }
   
- 
+  #sadduck {
+    
+    width: 300px;
+  }
   
+/*   .happy, .sad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  */
+  .responses {
+  display: flex;
+  justify-content: center; /* Centers them horizontally */
+  gap: 300px; /* Adds space between Yes and No */
+}
+
   
 
 </style>
@@ -77,6 +92,7 @@
   </h1>
   
 
+<div class="responses">
   
 <div class="happy">
   <h1 id="yes">
@@ -97,10 +113,11 @@
   </h1>
   <div class="sadt">
     You made the duck sad. Schedule the meeting soon to make him happy again.
-    <img src="https://i.pinimg.com/736x/0b/15/d6/0b15d6ea6ac8f4c13586a21f80aabd03.jpg" alt="Sad duck">
+    <img id="sadduck" src="https://i.pinimg.com/736x/0b/15/d6/0b15d6ea6ac8f4c13586a21f80aabd03.jpg" alt="Sad duck">
   </div>
   
   
   </div>
-  
+  </div>
+
 </body>
